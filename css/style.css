@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-1{
+    width: 100%;
+    height: 900px;
+    background-image: url("./images/bg-1.png");
+
+    overflow: hidden;
+}
+
+.navbar{
+    width: ;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1.5px solid #333333;
+    
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: ;
+}
+.navbar ul{
+    display: flex;
+    
+
+}
+.shop-now{
+    width: 155px;
+    height: 43px;
+    margin-top: 10px;
+    border-radius: 50%;
+    color: rgb(225, 247, 156);
+    background-color: rgb(104, 139, 152);
+}
+.home1{
+    display: flex;
+}
+.half-side{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 13% 0% 0% 9%;
+}
+.home1 h1{
+    font-size: 125px;
+    font-family: Noto;
+}
+.middle{
+    margin: 25px 0px 150px 0;
+    font-size: 24px;
+    
+}
+.content-1{
+    width: 40vw;
+    font-size: 19px;
+}
+.content{
+    display: flex;
+}
+.half-side section{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.vector1 {
+    position:absolute;
+    width: 158px;
+    left: -182px;
+    top: 46px;
+
+}
+.vector-line{
+    position: absolute;
+    top: 45%;
+    left: -25px;
+}
+.half-side1{
+    padding-top: 8%;
+    position: relative;
+    
+    
+}
+.half-side1-img{
+    position: relative;
+
+}
+.half-side1-img div{
+    position:absolute;
+    top: 14px;
+    right: 40%;
+}
+.half-side1-img div h4{
+    font-size: 17px;
+}
+.half-side1-img div p{
+    font-size: 10px;
+    position: absolute;
+    right: 0px;
+    margin-top: 5px;
+}
+.sub-image1{
+    position: relative;
+    right: 13%;
+    top: -270px;
+ 
+}
+.vector-image{
+    position: relative;
+    top: -50px;
+    left: -30px;
+}
+.vector-svg{
+    position: relative;
+    z-index: -1;
+
+}
+.vector-svg img{
+    position: absolute;
+    top: -134px;
+    left: -240px;
+}
+
+.section-2{
+    padding: 16% 19%;
+    position: relative;
+    background-color:  rgb(229, 229, 229);
+    overflow: hidden;
+    background-image: url("images/bg-2.png");
+}
+
+.card{
+    width: 392px;
+    height: 600px;
+    position: relative;
+}
+.card-img{
+    position: relative;
+    
+}
+.container-arrow{
+    position: absolute;
+    top: 422px;
+    left: 259px;
+    width: 100px;
+}
+.card-price{
+    display: flex;
+    justify-content: space-between;
+}
+.container-card{
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    row-gap: 100px;
+    column-gap: 25%;
+}
+.card-vector{
+ 
+    position: absolute;
+    left: -287px;
+    top: -199px;
+}
+.card-vector2{
+ 
+    position: absolute;
+    left: 286px;
+    top: -148px;
+    
+}
+
+.card-vector3{
+ 
+    position: absolute;
+    left: -286px;
+    top: -148px;
+}
+
+.section-2 h1{
+    font-size: 125px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    top: -55px;
+
+}
+.button-2{
+   display: flex;
+   justify-content: center;
+   width: 67vw;
+}
+
+.section-3{
+    width: 100%;
+    height: 872px;
+    background-color: rgb(225, 247, 156);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+.section-3 h1{
+    width: 45vw;
+    font-size: 125px;
+    padding: 25% 0 0 22%;
+}
+.s3-half{
+    position: relative;
+    padding: 15% 0 0 10%;
+    width: 27vw;
+}
+.section-3 h4{
+    margin-bottom: 9%;
+    font-size: 29px;
+    color: rgb(104, 139, 152);
+}
+.s3-line{
+    position: absolute;
+}
+.buttom-section{
+    position: absolute;
+    top: 93%;
+    left: 6%;
+}
+
+.s3-vector img{
+    width: 200px;
+}
+
+.s3-vector2 img{
+    width: 200px;
+}
+.s3-vector{
+    position: absolute;
+    left: -4%;
+    top: 7%;
+}
+.s3-vector2{
+    position: absolute;
+    left: 111%;
+    top: 58%;
+}
+.section-4{
+    position: relative;
+}
+.slider-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 77vw;
+    margin-top: 185px;
+}
+.slider-cap{
+    position: absolute;
+    top: 21%;
+    left: 16%;
+}
+.slider-cap h1{
+    font-size: 125px;
+    color: #333333;
+}
+.slider-cap p{
+    font-size: 28px;
+    color: white;
+}
+.slider{
+    display: grid;
+    margin: 0% 14.5%;
+    grid-template-columns: 34% 34% 33%;
+    margin-top: 5%;
+    height: 60vh;
+  
+    position: relative;
+}
+.arrow2{
+    position: absolute;
+    top: 63%;
+    left: -7%;
+}
+.arrow3{
+    position: absolute;
+    top: 63%;
+    left: 101%;
+}
+.slider h4{
+    color: rgb(104, 139, 152);
+    font-size: 28px;
+    margin: 5% 0 20% 
+}
+.section-5{
+   
+    background-color: yellow;
+}    
+.s5-half{
+    width: 45%;
+    padding: 20% 15% 20% 5%;
+}

@@ -5,15 +5,18 @@
 
 
 .section-1{
-    width: 100%;
+    width: 100vw;
     height: 900px;
-    background-image: url("./images/bg-1.png");
-
+    background-image: url("../images/bg-1.png");
+    background-repeat: no-repeat;
+   
+    background-size: 100vw ;
+   
     overflow: hidden;
 }
 
 .navbar{
-    width: ;
+    width:100vw;
     height: 96px;
     display: flex;
     justify-content: space-around;
@@ -96,15 +99,21 @@
 }
 .half-side1-img{
     position: relative;
+    z-index: ;
 
+}
+.half-side1-img img{
+    z-index: 1;
 }
 .half-side1-img div{
     position:absolute;
     top: 14px;
     right: 40%;
+    z-index: ;
 }
 .half-side1-img div h4{
     font-size: 17px;
+    
 }
 .half-side1-img div p{
     font-size: 10px;
@@ -116,30 +125,36 @@
     position: relative;
     right: 13%;
     top: -270px;
+    z-index: ;
  
 }
 .vector-image{
     position: relative;
     top: -50px;
     left: -30px;
+    z-index: ;
 }
 .vector-svg{
     position: relative;
-    z-index: -1;
+    z-index:;
 
 }
 .vector-svg img{
     position: absolute;
     top: -134px;
     left: -240px;
+    z-index: -1;
 }
 
 .section-2{
     padding: 16% 19%;
     position: relative;
-    background-color:  rgb(229, 229, 229);
+    
+    background-image: url("../images/bg-2.png");
+    background-image: cover;
+    background-size: 100vw;
+    background-repeat: no-repeat;
     overflow: hidden;
-    background-image: url("images/bg-2.png");
 }
 
 .card{
@@ -185,7 +200,7 @@
 .card-vector3{
  
     position: absolute;
-    left: -286px;
+    left: -264px;
     top: -148px;
 }
 
